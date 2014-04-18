@@ -2,8 +2,8 @@ configTable = {}
 
 function love.conf(t)
     t.title = "LD-XX"           -- The title of the window the game is in (string)
-    t.author = "Tommy Bergeron" -- The author of the game (string)
-    t.url = 'tom@brainpad.org'  -- The website of the game (string)
+    t.author = "<Your Name>" -- The author of the game (string)
+    t.url = '<Your Email>'  -- The website of the game (string)
     t.identity = "ldxx"         -- The name of the save directory (string)
     t.version = "0.9.0"         -- The LÖVE version this game was made for (string)
     t.console = false           -- Attach a console (boolean, Windows only)
