@@ -1,7 +1,7 @@
 love-ludumdare-starter
 ======================
 
-Löve 2D game development starter kit.
+Löve 2D Game Development Starter Bundle.
 
 ##### Want to throw a quick *ludum dare* game? Take this with you!
 
