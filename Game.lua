@@ -1,7 +1,6 @@
 Game = {}
 
 function Game.enter()
-    
 end
 
 function Game.update(dt)
