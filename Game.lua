@@ -25,7 +25,7 @@ function Game.draw()
     character:draw()
 end
 
-function Game.keypressed(args
+function Game.keypressed(args)
     -- pressing escape switches to the menu state
     if args.key == "escape" then
         state.switch(Menu)
