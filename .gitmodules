@@ -1,0 +1,18 @@
+[submodule "libs/anim8"]
+    path = libs/anim8
+    url = git://github.com/kikito/anim8.git
+[submodule "libs/cron.lua"]
+    path = libs/cron.lua
+    url = git://github.com/kikito/cron.lua.git
+[submodule "libs/lovebird"]
+    path = libs/lovebird
+    url = git://github.com/rxi/lovebird.git
+[submodule "libs/lume"]
+    path = libs/lume
+    url = git://github.com/rxi/lume.git
+[submodule "libs/lurker"]
+    path = libs/lurker
+    url = git://github.com/rxi/lurker.git
+[submodule "libs/middleclass"]
+    path = libs/middleclass
+    url = git://github.com/kikito/middleclass.git
