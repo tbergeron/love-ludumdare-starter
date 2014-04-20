@@ -7,6 +7,8 @@ Löve 2D Game Development Starter Bundle.
 
 This package is built for *personal* purposes only. It contains a few libraries I personally use to get quick prototype done, etc. I also provided a simple game state manager in `state_manager.lua`. Simply follow the pattern of the existing states (`Game.lua` and `Menu.lua`) to get started.
 
+![](http://i.imgur.com/VeBbYyZ.png)
+
 Most assets are coming from a defunct game called [Glitch](http://glitchthegame.com). I miss that game :(
 
 #### 3rd party libraries
