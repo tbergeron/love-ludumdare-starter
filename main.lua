@@ -1,6 +1,7 @@
 -- main game components
 require("globals")
 require("state_manager")
+require("character")
 
 -- states
 require("Menu")
@@ -12,7 +13,7 @@ anim8 = require("libs.anim8.anim8")
 
 -- game starts
 function love.load()
---    if arg[#arg] == "-debug" then require("mobdebug").start() end
+    if arg[#arg] == "-debug" then require("mobdebug").start() end
     
     -- creating game instance
     Instance = {}
