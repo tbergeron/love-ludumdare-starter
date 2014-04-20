@@ -3,7 +3,7 @@ Game = {}
 local background_image
 local character
 
--- called when switching to this state
+-- called when switching to that state
 function Game.enter()
     -- background
     background_image = love.graphics.newImage(globals.getPath('sprites/background.png'))
@@ -25,7 +25,7 @@ function Game.draw()
     character:draw()
 end
 
-function Game.keypressed(args
+function Game.keypressed(args)
     -- pressing escape switches to the menu state
     if args.key == "escape" then
         state.switch(Menu)
