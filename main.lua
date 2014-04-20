@@ -12,6 +12,8 @@ anim8 = require("libs.anim8.anim8")
 
 -- game starts
 function love.load()
+--    if arg[#arg] == "-debug" then require("mobdebug").start() end
+    
     -- creating game instance
     Instance = {}
 
