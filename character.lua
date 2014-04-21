@@ -1,4 +1,4 @@
-local class = require 'libs.middleclass.middleclass'
+local class = require 'middleclass'
 
 local character_image
 local character_grid

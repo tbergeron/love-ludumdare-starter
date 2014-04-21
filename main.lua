@@ -1,3 +1,5 @@
+package.path = "libs/?/?.lua;libs/?.lua;" .. package.path
+
 -- main game components
 require("globals")
 require("state_manager")
@@ -9,7 +11,6 @@ require("Game")
 
 -- 3rd parties
 
-package.path = "libs/?/?.lua;libs/?.lua;" .. package.path
 lovebird = require("lovebird")
 anim8 = require("anim8")
 lurker = require("lurker")
