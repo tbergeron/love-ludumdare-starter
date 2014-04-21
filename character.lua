@@ -26,8 +26,9 @@ function Character:update(dt)
     elseif love.keyboard.isDown("right") then
       self.x = self.x + (self.speed * dt)
     end
-  
+    
     character_animation:update(dt)
+
 end
 
 function Character:draw()
