@@ -1,3 +1,5 @@
+package.path = "libs/?/?.lua;libs/?.lua;" .. package.path
+
 -- main game components
 require("globals")
 require("state_manager")
@@ -8,8 +10,10 @@ require("Menu")
 require("Game")
 
 -- 3rd parties
-lovebird = require("libs.lovebird.lovebird")
-anim8 = require("libs.anim8.anim8")
+
+lovebird = require("lovebird")
+anim8 = require("anim8")
+lurker = require("lurker")
 
 -- game starts
 function love.load()
@@ -23,6 +27,7 @@ function love.load()
 end
 
 function love.update(dt)
+    lurker.update()
     lovebird.update()
     
     if currentState then
