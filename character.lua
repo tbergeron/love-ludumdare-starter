@@ -1,4 +1,4 @@
-local class = require 'libs.middleclass.middleclass'
+local class = require 'middleclass'
 
 -- sample anim8 animation
 local character_idle_image
@@ -36,7 +36,7 @@ function Character:initialize()
 end
 
 function Character:update(dt)
-    -- moving character
+    -- if left or right is pushed
     if love.keyboard.isDown("left") then
       -- switching to movement animation
       self:switchAnimation(character_move_left, character_base_reversed_image)
@@ -51,7 +51,7 @@ function Character:update(dt)
       -- switching back to idle animation
       self:switchAnimation(character_idle, character_idle_image)
     end
-  
+    
     self.currentAnimation:update(dt)
 end
 
