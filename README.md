@@ -23,3 +23,22 @@ Most assets are coming from a defunct game called [Glitch](http://glitchthegame.
 - [tserial](https://github.com/tbergeron/love-ludumdare-starter/blob/master/libs/tserial.lua#L2)
 
 Feel free to contribute and/or report any issues on the github issue tracker.
+
+Getting Started
+================
+
+# Installing Love2D in Ubuntu
+```
+sudo add-apt-repository ppa:bartbes/love-stable
+sudo apt-get update
+sudo apt-get install love
+```
+
+# Running Starter
+```
+git clone https://github.com/tbergeron/love-ludumdare-starter.git
+cd love-ludumdare-starter
+git submodule init
+git submodule update
+love .
+```
