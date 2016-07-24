@@ -8,12 +8,12 @@ end
 
 function Menu.draw()
     local text = "Menu, press escape to jump to game state."
-    
+
     -- get font, text width, to center text.
     local font = love.graphics.getFont()
     local textWidth = font:getWidth(text)
-    local x = (love.window.getWidth() / 2) - (textWidth / 2)
-  
+    local x = (love.graphics.getWidth() / 2) - (textWidth / 2)
+
     love.graphics.print("Menu, press ESC to jump to game state", x, 290)
 end
 
